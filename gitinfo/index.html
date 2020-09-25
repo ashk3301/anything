@@ -3,106 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Git and Github</title>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Kufam:wght@500&family=Work+Sans&display=swap" rel="stylesheet">
     <style>
-        *{
-            margin:0;
-            padding: 0;
+        h1{
+            font-family: 'Work Sans', sans-serif;
+            text-align: center;
+            font-size:50px;
         }
-        .centered {
-            color:white;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 75px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            color: #ffffff;
+        h2{
+            font-family: 'Work Sans', sans-serif;
+            text-align: center;
+            font-size:40px;
         }
-        td{
-    font-size: 20px;
-    height:50px;
-    font-family: Garamond;
-    padding:10px;
-   }
-    th{
-    height:50px;
-    font-size: 25px;
-    font-family: Helvetica;
-   }
-   table{
-       text-align: center;
-   }
-   .table_center{
-  margin-left: auto;
-  margin-right:auto;
-}
-.head{
-    padding:10px 0 10px 0;
-    background-color:#42f5b6;
-    text-align: center;
-    margin:20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.head h1{
-    padding: 10px;;
-}
-.sec{
-    background-color: #40E0D0;
-    padding-top:10%;
-    padding-bottom:10%;
-}
-.headlast h2{
-    background-color: #40E0D0;
-		text-align: center;
-		font-size:40px;
-		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	}
-    marquee{
-        background-color: #40E0D0; 
-    }
+        p{ 
+			width:98%;
+			padding:30px;		
+			font-family: Garamond;
+			font-size:25px;
+			background-color: lightgrey;
+        }
+        dl{
+            font-family: Garamond;
+			font-size:25px;
+			background-color: lightgrey;
+        }
+        dd{
+            padding-bottom:10px;
+        }
     </style>
 </head>
-<body>  
-    <div class="container">
-    <img src="main.jpg" alt="Snow" style="width:100%;">
-    <div>
-        <h1 class="centered">Hello, I am Ashish.</h1>
-    </div>
-  </div>
-  <div class="sec">
-    <h1 class="head">My Education Qualifications</h1>
-    <table border="5px" class="table_center">
-        <tr bgcolor="#a6ed2b">
-            <th colspan="3">Details</th>
-        </tr>
-        <tr bgcolor="#42d7f5">
-            <td>
-                Matriculation
-            </td>
-            <td>
-                St. John's School, DLW, Varanasi
-            </td>
-            <td> 93.3%</td>
-        </tr>
-        <tr bgcolor="#42d7f5">
-            <td>
-                Intermediate
-            </td>
-            <td>
-                Little Flower House, Varanasi
-            </td>
-            <td>87%</td>
-        </tr>  
-        <tr bgcolor="#18f5ab">
-            <td>
-                Current
-            </td>
-            <td colspan="2">B.Tech from National Institute of Technology, Patna</td>
-        </tr>
-        <tr>
-    </table>
-  </div>
-  <div class="headlast"><marquee><h2>Submitted By: Ashish Kumar 1906140</h2></marquee></div>
+<body>
+    <h1><u>Version Control System</u></h1>
+    <p>Version control systems are a category of software tools that helps record changes to files by keeping a track of modifications done to the code.Copy of Work (sometimes called as checkout): It is the personal copy of all the files in a project. You can edit to this copy, without affecting the work of others and you can finally commit your changes to a repository when you are done making your changes.</p>
+    <h2><u>Git and Github</u></h2>
+    <p>Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. GitHub is a Git repository hosting service, but it adds many of its own features. While Git is a command line tool, GitHub provides a Web-based graphical interface</p>
+    <h2><u>Git Commands</u></h2>
+    <dl>
+        <dt><strong>1. Fork</strong></dt>
+        <dd>A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+        </dd>
+    
+    <dt><strong>1. Commit</strong></dt>
+    <dd>The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.Using the "git commit" command only saves a new commit object in the local Git repository.</dd>
+    <dt><strong>3. Push</strong></dt>
+    <dd>The push command can be considered as a tool to transfer commits between local and remote repositories.It is used to publish new local commits on a remote server.</dd>
+</dl>
 </body>
 </html>
+
+
+
+
+
+
+
+
