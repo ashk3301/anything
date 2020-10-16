@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Kufam:wght@500&family=Work+Sans&display=swap" rel="stylesheet">
+    <title>Responsive</title>
+    <style>
+        #heading{
+            text-align:center;
+            width: 30%;
+            border: 3px solid black;
+            transition: 1.5s;
+        }
+        #heading:hover{
+            width: 100%;
+            text-align: center;
+            background-color: limegreen;
+            font-family: 'Work Sans', sans-serif;
+            border: 3px solid #19b6ff;
+        }
+        .flexbox{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        img{
+            width:400px;
+            height: 210px;
+            margin:10px;
+            border:2px solid #19b6ff;
+            transition:all 0.4s;
+            
+        }
+        img:hover{
+            transform: rotate(40deg) scale(1.2);
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Animation using CSS</h1>
+    <h1>Responsive Animated Images</h1>
+    <div class="flexbox">
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+    </div>
+</body>
+</html>
